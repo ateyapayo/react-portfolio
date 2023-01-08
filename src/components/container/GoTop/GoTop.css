@@ -1,0 +1,11 @@
+.go-top {
+  width: 3%;
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  border: none;
+  border-radius: 100%;
+  bottom: 11vh;
+  right: 4.5vw;
+  z-index: 9999;
+}/*# sourceMappingURL=GoTop.css.map */

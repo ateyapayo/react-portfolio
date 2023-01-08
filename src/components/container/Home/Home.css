@@ -1,0 +1,111 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home .gradient-heading {
+  background-image: linear-gradient(90deg, #0070f3, #00dfd8);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#home .text-box {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home .text-box .third-line {
+  background-image: linear-gradient(90deg, #00dfd8, #0070f3);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#home .profile {
+  width: 110px;
+  height: 110px;
+}
+#home .profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home .profile_text {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#home .profile_text h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+@media screen and (max-width: 500px) {
+  #home .profile_text h3 {
+    font-size: 1.5rem;
+  }
+}
+#home .profile_text h3 span {
+  color: #0070f3;
+}
+#home .profile_text .job {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 0.85rem;
+}
+#home .profile_text .text {
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 1.3;
+  font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+  #home .profile_text .text {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  #home .profile_text .text {
+    font-size: 2.5rem;
+  }
+}
+#home .profile_text a {
+  margin-top: 3rem;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+#home .profile_text div {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 0.35rem 1rem;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  cursor: default;
+}
+@media screen and (max-width: 800px) {
+  #home .profile_text div {
+    display: none;
+  }
+}
+#home .profile_text .uiDesign {
+  right: -1rem;
+  top: 3.5rem;
+}
+#home .profile_text .reactJS {
+  top: 2rem;
+  left: 2rem;
+}
+#home .profile_text .nextJS {
+  bottom: 2rem;
+  left: 0;
+}/*# sourceMappingURL=Home.css.map */
